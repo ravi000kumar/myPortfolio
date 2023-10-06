@@ -104,7 +104,7 @@ nav ul li .class:hover {
   height: 90vh;
   width: 45%;
   background-repeat: no-repeat;
-  background-image: url('./Images/Programming-amico.png');
+  background-image: url('./Programming-amico.png');
   background-size: contain;
 }
 
@@ -175,7 +175,7 @@ button:hover {
 
 .what-i-do .back-Image {
   /* border: 1px solid  white; */
-  background-image: url('./Images/UI-UX\ design-amico.png');
+  background-image: url('./UI-UX\ design-amico.png');
   background-size: contain;
   height: 90vh;
   width: 45%;
