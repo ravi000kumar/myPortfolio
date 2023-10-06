@@ -64,7 +64,7 @@
     .backImage {
         /* border: 1px solid white; */
         background-repeat: no-repeat;
-        background-image: url('./Images/Programming-amico.png');
+        background-image: url('./Programming-amico.png');
         background-size: contain;
         height: 40vh;
         background-position: center;
@@ -422,7 +422,7 @@
         .backImage {
             /* border: 1px solid white; */
             background-repeat: no-repeat;
-            background-image: url('./Images/Programming-amico.png');
+            background-image: url('./Programming-amico.png');
             background-size: contain;
             height: 50vh;
             background-position: center;
@@ -775,7 +775,7 @@
     
         .backImage {
             background-repeat: no-repeat;
-            background-image: url('./Images/Programming-amico.png');
+            background-image: url('./Programming-amico.png');
             background-size: contain;
             height: 50vh;
             background-position: center;
