@@ -1,0 +1,635 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.spanColor {
+  color: orangered;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171c28;
+}
+
+nav.sticky {
+  background-color: #1c2232;
+}
+nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  height: 15vh;
+  align-items: center;
+  background-color: #171c28;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+nav ul li .class {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #d9dfe5;
+  padding: 10px 20px;
+  transition: 0.5s;
+}
+
+nav ul li .class:hover {
+  background: #55198b;
+}
+
+.cursive {
+  font-family: cursive;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* ---------------header css finish------------ */
+/* @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap'); */
+.hello-container {
+  /* border: 1px solid white; */
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.mini-cont {
+  width: 90%;
+  color: white;
+  height: 80vh;
+}
+
+.mini-cont h1 {
+  font-size: 3rem;
+  word-spacing: 8px;
+  margin: 10px 25px;
+}
+
+.mini-cont h4 {
+  font-size: 1.3rem;
+  padding: 10px;
+  margin: 15px;
+  word-spacing: 5px;
+  line-height: 30px;
+  font-weight: 100;
+  color: #d9dfe5;
+}
+
+.text-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 45%;
+}
+
+ .backImage {
+  height: 90vh;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-image: url('./Images/Programming-amico.png');
+  background-size: contain;
+}
+
+.socialIcons {
+  margin: 15px;
+  /* border: 1px solid red; */
+  height: 10vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.socialIcons img {
+  width: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  /* border: 1px solid red; */
+}
+
+.socialIcons img:hover {
+  outline: #272f41 solid 8px;
+}
+
+.service-btn {
+  margin: 15px;
+  /* border: 1px solid red; */
+  height: 10vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 15px 25px;
+  background: #55198b;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button .active {
+  text-decoration: none;
+  color: white;
+}
+button:hover {
+  background: #8c43ce;
+}
+
+/* ----------------------------Skills- What i do --------------------------- */
+.what-i-do {
+  margin-top: 30px;
+  /* border: 1px solid white; */
+  height: 140vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.what-i-do .back-Image {
+  /* border: 1px solid  white; */
+  background-image: url('./Images/UI-UX\ design-amico.png');
+  background-size: contain;
+  height: 90vh;
+  width: 45%;
+  background-repeat: no-repeat;
+}
+
+.whatI-Do-Text {
+  /* border: 1px solid  red; */
+  height: 120vh;
+  width: 50%;
+}
+
+.small-whatI-do {
+  margin: auto;
+  /* border: 1px solid  red; */
+  height: 120vh;
+  width: 95%;
+  color: #c4c6c8;
+}
+
+.small-whatI-do h1 {
+  font-size: 3rem;
+  color: #c4c6c8;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.what-i-do h3 {
+  font-size: 1.3rem;
+  margin: 28px 10px;
+  font-weight: 100;
+}
+
+.skills-image {
+  margin: 10px auto;
+  /* border: 1px solid  red; */
+  height: 30vh;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skills-image img {
+  width: 90px;
+  filter: grayscale(100%);
+  transition: 0.5s;
+}
+
+.skills-image img:hover {
+  filter: grayscale(0);
+}
+
+.stacks-div {
+  margin: 40px auto;
+  /* border: 1px solid  red; */
+  height: 50vh;
+  width: 100%;
+}
+
+/* ---------proficiency-container------ */
+.proficiency-container {
+  margin: auto;
+  height: 70vh;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.proficiency-container h1 {
+  font-size: 3rem;
+  margin: 10px;
+  font-weight: 100;
+  color: #d9dfe5;
+  margin-bottom: 40px;
+}
+
+.proficiency-container h3 {
+  font-size: 1.3rem;
+  margin: 20px 10px;
+  font-weight: 100;
+  color: #d9dfe5;
+}
+
+.frontend,
+.backend,
+.programming {
+  margin: 10px;
+  background: white;
+  /* border: 1px solid rgb(163, 157, 157); */
+  border-radius: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.frontColor {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 100%;
+  width: 85%;
+  background: #8c43ce;
+}
+
+.backColor {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 100%;
+  width: 55%;
+  background: #8c43ce;
+}
+
+.progrColor {
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  height: 100%;
+  width: 45%;
+  background: #8c43ce;
+}
+
+/* ---------------------------------Source CSS-------------------- */
+.project-One {
+  color: white;
+  margin: 20px;
+  /* border: 1px solid white; */
+  height: 38vh;
+  width: 45%;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projectNameProject h1 {
+  color: white;
+  font-size: 2.7rem;
+  font-weight: 100;
+  margin: 10px;
+  margin-left: 5.2%;
+}
+
+.project-One:hover {
+  background: #55198b;
+  box-shadow: 0 0 8px 7px rgb(155, 149, 149);
+}
+
+.project-One img {
+  width: 30px;
+  margin: 10px;
+}
+
+.project-One .head {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.head h2 {
+  font-weight: 700;
+}
+
+.project-One h3 {
+  margin: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.project-One h3 a {
+  color: white;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px;
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  background: yellow;
+}
+
+.flex {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.flex h5 {
+  margin: 5px;
+  color: rgb(168, 162, 162);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* ------------------------Blogs------------- */
+.Blog-comp {
+  height: 35vh;
+  width: 45%;
+  color: rgb(160, 157, 157);
+  box-shadow: 0 0 8px 7px rgb(155, 149, 149);
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.Blog-comp:hover {
+  background-color: #55198b;
+}
+
+.Blog-comp h2 {
+  font-size: 1.3rem;
+  font-weight: 100;
+  margin: 10px;
+  color: white;
+}
+
+.Blog-comp h6 {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 20;
+  margin: 10px 15px;
+}
+
+/* --------------------------Second Blog CSS--------------- */
+.blogs-container {
+  margin:2% auto;
+  height: 60vh;
+  width: 90%;
+  /* border: 1px solid white; */
+}
+
+.blogCampFlex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blogsHTwo {
+  color: white;
+  font-weight: 100;
+  font-size: 2.7rem;
+  margin: 10px 20px;
+}
+
+.blogsHFive {
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 100;
+  margin: 20px;
+}
+
+/* ----------------starting Media Query------------- */
+/* -------------------------Contact Form  CSS-------------------------- */
+.reachMe-div {
+  margin:auto;
+  /* border: 1px solid white; */
+  height: 90vh;
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+.reachMe-div h1 {
+  color: white;
+  font-size: 2rem;
+  word-spacing: 5px;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.reachMe-div h4 {
+  color: white;
+  font-size: 1.2rem;
+  word-spacing: 6px;
+  font-weight: 30;
+  margin: 20px 10px;
+}
+
+.fa-solid {
+  margin: 5px;
+  margin-right: 8px;
+}
+
+.reachMe-div h3 {
+  color: white;
+  font-size: 1.2rem;
+  word-spacing: 6px;
+  font-weight: 30;
+  margin: 10px;
+}
+
+.contact-div {
+  /* border: 1px solid white; */
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-Text-div {
+  /* border: 1px solid white; */
+  height: 40vh;
+  width: 50%;
+}
+
+.contact-Text-div h5 {
+  color: white;
+  font-size: 1.2rem;
+  margin: 10px;
+  font-weight: 100;
+}
+
+.contact-From-div {
+  height: 40vh;
+  width: 50%;
+}
+
+.icons-div {
+  margin-top: 30px;
+  /* border: 1px solid white; */
+  height: 15vh;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icons-div img {
+  width: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+  border: none;
+}
+
+.icons-div img:hover {
+  outline: #272f41 solid 8px;
+}
+
+.contact-From-div form {
+  margin: auto;
+  /* border: 1px solid white; */
+  height: 40vh;
+  width: 80%;
+}
+
+.contact-From-div .flex {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 5px; */
+}
+
+.contact-From-div .flex input {
+  border: 1px solid #868e96;
+  outline: none;
+  height: 100%;
+  width: 45%;
+  font-size: 1.1rem;
+  padding: 10px;
+  background: #171c28;
+  color: white;
+  cursor: auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.contact-From-div .textArea {
+  margin: 7px auto;
+  border: 1px solid #868e96;
+  height: 15vh;
+  width: 90%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.contact-From-div .textArea textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 10px;
+  background: #171c28;
+  color: white;
+  cursor: auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.contact-From-div .Submit {
+  margin: auto;
+  height: 8vh;
+  width: 200px;
+  border: none;
+  border: 1px solid #868e96;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.contact-From-div .Submit button {
+  height: 100%;
+  width: 100%;
+  background: #171c28;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  /* border: 1px solid #868e96; */
+}
+
+.contact-From-div .Submit button:hover {
+  color: #868e96;
+}
+
+/* ---------------Footer----------------- */
+.footer {
+  margin: auto;
+  /* border: 1px solid white; */
+  height: 20vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer h4 {
+  color: white;
+  word-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.footer h5 {
+  color: rgb(195, 182, 182);
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+.footer h5 a {
+  color: rgb(211, 202, 202);
+}
+
+.Submit h6 {
+  color: red;
+  text-align: center;
+  margin: 5px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+/* ----------------------------------------------------------------------
+-------------------------------------------------------------------------*/

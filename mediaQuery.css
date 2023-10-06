@@ -1,0 +1,1062 @@
+@media screen and (min-width:320px) and (max-width:480px) {
+    .mainContainerFlex {
+        overflow: hidden;
+    }
+    /* -----------Navbar------------    */
+    nav {
+        /* border: 1px solid white; */
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li .class {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    /* h1 Tag */
+    .cursive {
+        font-size: 16px;
+    }
+
+    /* ------------------TextContainer or HelloContainer-------- */
+    .hello-container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* height: 130vh; */
+    }
+
+    .text-div {
+        /* border: 1px solid green; */
+        /* height: 250vh; */
+        height: auto;
+        width: 100%;
+    }
+
+    .mini-cont {
+        /* border: 1px solid white; */
+        width: 100%;
+        height: 100%;
+    }
+
+    .mini-cont h1 {
+        text-align: center;
+        font-size: 16px;
+        word-spacing: 4px;
+    }
+
+    .mini-cont h4 {
+        font-size: 12px;
+        line-height: 25px;
+    }
+    .socialIcons img {
+        height: 7vh;
+        width: 50px;
+    }
+    .service-btn button {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .backImage {
+        /* border: 1px solid white; */
+        background-repeat: no-repeat;
+        background-image: url('./Images/Programming-amico.png');
+        background-size: contain;
+        height: 40vh;
+        background-position: center;
+        width: 100%;
+    }
+
+    /* ------------------whatIdocontainer and skillsContainer-----------  */
+    .what-i-do {
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    #whatBackImage {
+        background-position: center;
+        height: 40vh;
+        width: 100%;
+        /* border: 1px solid white; */
+    }
+
+    .whatI-Do-Text {
+        height: auto;
+        width: 100%;
+        /* border: 1px solid white; */
+    }
+
+    .small-whatI-do {
+        /* border: 1px solid green; */
+        height: auto;
+        width: 100%;
+    }
+
+    .small-whatI-do h1 {
+        font-size: 16px;
+    }
+
+    .small-whatI-do h3 {
+        font-size: 13px;
+    }
+
+    .skills-image {
+        /* border: 1px solid white; */
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .skills-image img {
+        height: 75px;
+        width: 75px;
+    }
+
+    .stacks-div {
+        height: auto;
+        /* border: 1px solid white; */
+    }
+
+    .stacks-div h3 {
+        font-size: 13px;
+        margin: 10px 10px;
+    }
+
+    /* ---------proficiency-container------ */
+    .proficiency-container {
+        height: auto;
+        width: 100%;
+    }
+
+    .proficiency-container h1 {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .proficiency-container h3 {
+        font-size: 13px;
+        margin: 10px 10px;
+    }
+
+    .frontend,
+    .backend,
+    .programming {
+        height: 20px;
+    }
+
+    /* -----------------openSourceceProjects---------------- */
+    .projectNameProject {
+        width: 100%;
+    }
+
+    .projectNameProject h1 {
+        font-size: 16px;
+    }
+
+    .flex-div {
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-One {
+        /* border: 1px solid red; */
+        margin: auto;
+        height: 25vh;
+        width: 95%;
+    }
+
+    .project-One h3 {
+        font-size: 12px;
+        font-weight: 100;
+        word-spacing: 5px;
+    }
+
+    /* .head{
+        border: 1px solid white;
+    } */
+    .head h2 {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .head img {
+        width: 15px;
+    }
+
+    /* .flex{
+        border: 1px solid green;
+    } */
+    .flex h5 {
+        font-size: 9px;
+        font-weight: 200;
+    }
+
+    .flex p {
+        height: 5px;
+        width: 5px;
+    }
+
+    /* moreProjects onGithub 12px btn fontSize  */
+    /* ravi */
+    /* .moreProject-on-github {
+        border: 1px solid white;
+    } */
+
+    .moreProject-on-github button {
+        font-size: 12px;
+        padding: 10px 25px;
+        font-weight: 100;
+    }
+
+    /* -----------------blogs----------- */
+    .blogs-container {
+        width: 100%;
+    }
+
+    .blogsHTwo {
+        font-size: 16px;
+    }
+
+    .blogsHFive {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .Blog-comp h2 {
+        font-size: 14px;
+        margin: 5px 9px;
+    }
+
+    .Blog-comp h6 {
+        font-size: 9px;
+        margin: 5px 10px;
+        word-spacing: 5px;
+    }
+
+    .Blog-comp {
+        margin: auto;
+        height: 15vh;
+        width: 80%;
+    }
+
+    .blogCampFlex {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /* --------------contactForm mediaQuery: -----------; */
+    .reachMe-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .reachMe-div h1 {
+        font-size: 16px;
+    }
+
+    .reachMe-div h4 {
+        font-size: 12px;
+        margin: 10px 10px;
+    }
+
+    /* .reachMe-hOne-hFour {
+        border: 1px solid white;
+    } */
+
+    .contact-div {
+        display: flex;
+        height: 60vh;
+        flex-direction: column;
+    }
+
+    .contact-Text-div {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .contact-Text-div h4 {
+        font-size: 12px;
+    }
+
+    .contact-Text-div h5 {
+        font-size: 9px;
+        margin: 10px 10px;
+    }
+
+    .contact-From-div {
+        width: 100%;
+    }
+
+    .contact-From-div form {
+        width: 100%;
+    }
+
+    .contact-From-div .flex input {
+        /* border: 1px solid red; */
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .contact-From-div .Submit {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .contact-From-div .textArea {
+        height: 10vh;
+        width: 90%;
+    }
+
+    .contact-From-div .textArea textarea {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .icons-div {
+        /* border: 1px solid red; */
+        margin-top: 0;
+        height: 10vh;
+        width: 90%;
+        margin: auto;
+    }
+
+    .icons-div img {
+        height: 7vh;
+        width: 50px;
+    }
+
+    /* ------------------footer------------- */
+    .footer {
+        height: 10vh;
+        width: 100%;
+    }
+
+    .footer h5 {
+        font-size: 9px;
+    }
+
+    .footer h4 {
+        font-size: 10px;
+    }
+}
+/* ---------------768 to 1024 pxedia query breakpoints-------- */
+@media screen and (min-width:480px) and (max-width:550px){
+    /* -----------Navbar------------    */
+    nav {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li .class {
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+    /* h1 Tag */
+    .cursive {
+        font-size: 18px;
+    }
+        /* ------------------TextContainer or HelloContainer-------- */
+        .hello-container {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            /* height: 130vh; */
+        }
+    
+        .text-div {
+            /* border: 1px solid green; */
+            /* height: 250vh; */
+            height: auto;
+            width: 100%;
+        }
+    
+        .mini-cont {
+            /* border: 1px solid white; */
+            width: 100%;
+            height: 100%;
+        }
+    
+        .mini-cont h1 {
+            text-align: center;
+            font-size: 16px;
+            word-spacing: 4px;
+        }
+    
+        .mini-cont h4 {
+            font-size: 12px;
+            line-height: 25px;
+        }
+    
+        /* .socialIcons{
+            border: 1px solid green;
+        } */
+        .socialIcons img {
+            height: 7vh;
+            width: 50px;
+        }
+    
+        /* .service-btn{
+            border: 1px solid white;
+        } */
+        .service-btn button {
+            padding: 10px 20px;
+            font-size: 12px;
+        }
+    
+        .backImage {
+            /* border: 1px solid white; */
+            background-repeat: no-repeat;
+            background-image: url('./Images/Programming-amico.png');
+            background-size: contain;
+            height: 50vh;
+            background-position: center;
+            width: 100%;
+        }
+            /* ------------------whatIdocontainer and skillsContainer-----------  */
+    .what-i-do {
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    #whatBackImage {
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .whatI-Do-Text {
+        height: auto;
+        width: 100%;
+        /* border: 1px solid white; */
+    }
+
+    .small-whatI-do {
+        /* border: 1px solid green; */
+        height: auto;
+        width: 100%;
+    }
+
+    .small-whatI-do h1 {
+        font-size: 16px;
+    }
+
+    .small-whatI-do h3 {
+        font-size: 13px;
+    }
+
+    .skills-image {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .skills-image img {
+        height: 85px;
+        width: 85px;
+    }
+
+    .stacks-div {
+        height: auto;
+        /* border: 1px solid white; */
+    }
+
+    .stacks-div h3 {
+        font-size: 13px;
+        margin: 10px 10px;
+    }
+
+    /* ---------proficiency-container------ */
+    .proficiency-container {
+        height: auto;
+        width: 100%;
+    }
+
+    .proficiency-container h1 {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .proficiency-container h3 {
+        font-size: 13px;
+        margin: 10px 10px;
+    }
+
+    .frontend,
+    .backend,
+    .programming {
+        height: 20px;
+    }
+
+    /* -----------------openSourceceProjects---------------- */
+    .projectNameProject {
+        width: 100%;
+    }
+
+    .projectNameProject h1 {
+        font-size: 16px;
+    }
+
+    .flex-div {
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-One {
+        /* border: 1px solid red; */
+        margin: auto;
+        height: 25vh;
+        width: 95%;
+    }
+
+    .project-One h3 {
+        font-size: 12px;
+        font-weight: 100;
+        word-spacing: 5px;
+    }
+
+    /* .head{
+        border: 1px solid white;
+    } */
+    .head h2 {
+        font-size: 14px;
+        margin: 5px;
+    }
+
+    .head img {
+        width: 15px;
+    }
+
+    /* .flex{
+        border: 1px solid green;
+    } */
+    .flex h5 {
+        font-size: 9px;
+        font-weight: 200;
+    }
+
+    .flex p {
+        height: 5px;
+        width: 5px;
+    }
+
+    /* moreProjects onGithub 12px btn fontSize  */
+    /* ravi */
+    /* .moreProject-on-github {
+        border: 1px solid white;
+    } */
+
+    .moreProject-on-github button {
+        font-size: 12px;
+        padding: 10px 25px;
+        font-weight: 100;
+    }
+
+    /* -----------------blogs----------- */
+    .blogs-container {
+        width: 100%;
+    }
+
+    .blogsHTwo {
+        font-size: 16px;
+    }
+
+    .blogsHFive {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .Blog-comp h2 {
+        font-size: 14px;
+        margin: 5px 9px;
+    }
+
+    .Blog-comp h6 {
+        font-size: 9px;
+        margin: 5px 10px;
+        word-spacing: 5px;
+    }
+
+    .Blog-comp {
+        margin: auto;
+        height: 15vh;
+        width: 80%;
+    }
+
+    .blogCampFlex {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /* --------------contactForm mediaQuery: -----------; */
+    .reachMe-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .reachMe-div h1 {
+        font-size: 16px;
+    }
+
+    .reachMe-div h4 {
+        font-size: 12px;
+        margin: 10px 10px;
+    }
+
+    /* .reachMe-hOne-hFour {
+        border: 1px solid white;
+    } */
+
+    .contact-div {
+        display: flex;
+        height: 60vh;
+        flex-direction: column;
+    }
+
+    .contact-Text-div {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .contact-Text-div h4 {
+        font-size: 12px;
+    }
+
+    .contact-Text-div h5 {
+        font-size: 9px;
+        margin: 10px 10px;
+    }
+
+    .contact-From-div {
+        width: 100%;
+    }
+
+    .contact-From-div form {
+        width: 100%;
+    }
+
+    .contact-From-div .flex input {
+        /* border: 1px solid red; */
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .contact-From-div .Submit {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .contact-From-div .textArea {
+        height: 10vh;
+        width: 90%;
+    }
+
+    .contact-From-div .textArea textarea {
+        font-size: 13px;
+        padding: 5px;
+    }
+
+    .icons-div {
+        /* border: 1px solid red; */
+        margin-top: 0;
+        height: 10vh;
+        width: 90%;
+        margin: auto;
+    }
+
+    .icons-div img {
+        height: 7vh;
+        width: 50px;
+    }
+
+    /* ------------------footer------------- */
+    .footer {
+        height: 10vh;
+        width: 100%;
+    }
+
+    .footer h5 {
+        font-size: 9px;
+    }
+
+    .footer h4 {
+        font-size: 10px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:990px){
+    /* -----------Navbar------------    */
+    nav {
+        height: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li .class {
+        font-size: 22px;
+        padding: 5px 10px;
+    }
+    /* h1 Tag */
+    .cursive {
+        font-size: 28px;
+    }
+        /* ------------------TextContainer or HelloContainer-------- */
+        .hello-container {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            /* height: 130vh; */
+        }
+    
+        .text-div {
+            /* border: 1px solid green; */
+            /* height: 250vh; */
+            height: auto;
+            width: 100%;
+        }
+    
+        .mini-cont {
+            /* border: 1px solid white; */
+            width: 100%;
+            height: 100%;
+        }
+    
+        .mini-cont h1 {
+            text-align: center;
+            font-size: 28px;
+            word-spacing: 4px;
+        }
+    
+        .mini-cont h4 {
+            font-size: 20px;
+            line-height: 25px;
+        }
+    
+        /* .socialIcons{
+            border: 1px solid green;
+        } */
+        .socialIcons img {
+            height: 100px;
+            width: 100px;
+        }
+    
+        /* .service-btn{
+            border: 1px solid white;
+        } */
+        .service-btn button {
+            padding: 10px 25px;
+            font-size: 16px;
+        }
+    
+        .backImage {
+            background-repeat: no-repeat;
+            background-image: url('./Images/Programming-amico.png');
+            background-size: contain;
+            height: 50vh;
+            background-position: center;
+            width: 100%;
+        }
+            /* ------------------whatIdocontainer and skillsContainer-----------  */
+    .what-i-do {
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    #whatBackImage {
+        margin-top: 0;
+        background-position: center;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .whatI-Do-Text {
+        height: auto;
+        width: 100%;
+        /* border: 1px solid white; */
+    }
+
+    .small-whatI-do {
+        /* border: 1px solid green; */
+        height: auto;
+        width: 100%;
+    }
+
+    .small-whatI-do h1 {
+        font-size: 28px;
+    }
+
+    .small-whatI-do h3 {
+        font-size: 23px;
+    }
+
+    .skills-image {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .skills-image img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .stacks-div {
+        height: auto;
+    }
+
+    .stacks-div h3 {
+        font-size: 20px;
+        margin: 10px 10px;
+    }
+
+    /* ---------proficiency-container------ */
+    .proficiency-container {
+        height: auto;
+        width: 100%;
+    }
+
+    .proficiency-container h1 {
+        font-size: 28px;
+        margin-bottom: 25px;
+    }
+
+    .proficiency-container h3 {
+        font-size: 23px;
+        margin: 10px 10px;
+    }
+
+    .frontend,
+    .backend,
+    .programming {
+        height: 20px;
+    }
+
+    /* -----------------openSourceceProjects---------------- */
+    .projectNameProject {
+        width: 100%;
+    }
+
+    .projectNameProject h1 {
+        font-size: 28px;
+    }
+
+    .flex-div {
+        /* border: 1px solid white; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-One {
+        margin: auto;
+        height: 25vh;
+        width: 95%;
+    }
+
+    .project-One h3 {
+        font-size: 22px;
+        font-weight: 100;
+        word-spacing: 5px;
+    }
+
+    /* .head{
+        border: 1px solid white;
+    } */
+    .head h2 {
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .head img {
+        width: 15px;
+    }
+
+    /* .flex{
+        border: 1px solid green;
+    } */
+    .flex h5 {
+        font-size: 19px;
+        font-weight: 200;
+    }
+
+    .flex p {
+        height: 5px;
+        width: 5px;
+    }
+
+    /* moreProjects onGithub 12px btn fontSize  */
+    /* ravi */
+    /* .moreProject-on-github {
+        border: 1px solid white;
+    } */
+
+    .moreProject-on-github button {
+        font-size: 16px;
+        padding: 10px 25px;
+        font-weight: 100;
+    }
+
+    /* -----------------blogs----------- */
+    .blogs-container {
+        width: 100%;
+    }
+
+    .blogsHTwo {
+        font-size: 26px;
+    }
+
+    .blogsHFive {
+        font-size: 19px;
+        margin: 0;
+    }
+
+    .Blog-comp h2 {
+        font-size: 24px;
+        margin: 5px 9px;
+    }
+
+    .Blog-comp h6 {
+        font-size: 19px;
+        margin: 5px 10px;
+        word-spacing: 5px;
+    }
+
+    .Blog-comp {
+        margin: auto;
+        height: 15vh;
+        width: 80%;
+    }
+
+    .blogCampFlex {
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /* --------------contactForm mediaQuery: -----------; */
+    .reachMe-div {
+        height: auto;
+        width: 100%;
+    }
+
+    .reachMe-div h1 {
+        font-size: 28px;
+    }
+
+    .reachMe-div h4 {
+        font-size: 22px;
+        margin: 10px 10px;
+    }
+
+    /* .reachMe-hOne-hFour {
+        border: 1px solid white;
+    } */
+
+    .contact-div {
+        display: flex;
+        height: 60vh;
+        flex-direction: column;
+    }
+
+    .contact-Text-div {
+        height: 20vh;
+        width: 100%;
+    }
+
+    .contact-Text-div h4 {
+        font-size: 22px;
+    }
+
+    .contact-Text-div h5 {
+        font-size: 19px;
+        margin: 10px 10px;
+    }
+
+    .contact-From-div {
+        width: 100%;
+    }
+
+    .contact-From-div form {
+        width: 100%;
+    }
+
+    .contact-From-div .flex input {
+        /* border: 1px solid red; */
+        font-size: 23px;
+        padding: 5px;
+    }
+
+    .contact-From-div .Submit {
+        font-size: 23px;
+        padding: 5px;
+    }
+
+    .contact-From-div .textArea {
+        height: 10vh;
+        width: 90%;
+    }
+
+    .contact-From-div .textArea textarea {
+        font-size: 23px;
+        padding: 5px;
+    }
+
+    .icons-div {
+        /* border: 1px solid red; */
+        margin-top: 0;
+        height: 10vh;
+        width: 90%;
+        margin: auto;
+    }
+
+    .icons-div img {
+        height: 100px;
+        width: 100px;
+    }
+
+    /* ------------------footer------------- */
+    .footer {
+        height: 10vh;
+        width: 100%;
+    }
+
+    .footer h5 {
+        font-size: 19px;
+    }
+
+    .footer h4 {
+        font-size: 22px;
+    }
+}
